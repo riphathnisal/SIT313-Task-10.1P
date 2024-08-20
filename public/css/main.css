@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(139, 141, 138);
+}
+
+
+.textbox {
+    background-color: #139f75;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.textbox input[type="email"] {
+    padding: 5px;
+    border: 1px solid rgb(159, 131, 184);
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.textbox button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
