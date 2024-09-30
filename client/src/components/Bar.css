@@ -1,0 +1,49 @@
+.bar {
+    background-color: #faf6f6; 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bar-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0f0f0f;
+    width: 100%; 
+  }
+  
+  .bar-logo {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a0a0a;
+    padding: 10px 20px; 
+  }
+  
+  .bar-search {
+    border: 2px solid #000;
+    padding: 5px;
+    width: 200px; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 5px; 
+    width: 60%;
+  }
+  
+  .button-new{
+
+    background-color: #dcdada; 
+    border: 2px solid #000; 
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+    margin: 0;
+  }
+  
+  .button-new:hover {
+    background-color: #767474; 
+  }
+  
